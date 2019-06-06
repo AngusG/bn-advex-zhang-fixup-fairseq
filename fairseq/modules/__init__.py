@@ -18,6 +18,8 @@ from .multihead_attention import MultiheadAttention
 from .scalar_bias import ScalarBias
 from .sinusoidal_positional_embedding import SinusoidalPositionalEmbedding
 
+from .multihead_attention_zero import MultiheadAttentionZero
+
 __all__ = [
     'AdaptiveSoftmax',
     'BeamableMM',
@@ -31,4 +33,5 @@ __all__ = [
     'MultiheadAttention',
     'ScalarBias',
     'SinusoidalPositionalEmbedding',
+    'MultiheadAttentionZero'
 ]
